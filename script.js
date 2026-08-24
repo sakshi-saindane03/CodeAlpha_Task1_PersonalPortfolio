@@ -60,7 +60,7 @@ const observer = new IntersectionObserver((entries) => {
 hiddenElements.forEach((el) => observer.observe(el));
 
 const roles = [
-    "Frontend Developer",
+    "MERN Stack Developer",
     "IT Graduate",
     "Java & SQL Enthusiast"
 ];
