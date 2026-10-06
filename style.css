@@ -401,14 +401,14 @@ a {
 .project-card:hover {
     box-shadow: 0 6px 15px rgba(0,0,0,0.2);
     cursor: pointer;
-    transform: scale(1.07);
+    transform: scale(1.05);
 }
 
 .project-name {
     background-color: rgba(191, 219, 254, 0.75);
     text-align: center;
-    padding: 0.5rem 0;
-    font-size: 1.25rem;
+    padding: 0.5rem 0.25rem;
+    font-size: 1.2rem;
     font-weight: 600;
     overflow: hidden;
     color: #1E293B;
@@ -417,10 +417,11 @@ a {
 }
 
 .project-description {
-    font-size: 1.125rem;
+    font-size: 1rem;
     border-radius: 0 0 0.625rem 0.625rem;
     padding: 0.5rem;
     color: #475569;
+    text-align: justify;
 }
 
 .project-tech {
